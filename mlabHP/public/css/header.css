@@ -1,0 +1,13 @@
+header {
+    width: 15%; /* 固定する列の幅 */
+    height:100%;
+    position: fixed; /* 固定するためにposition: fixed;を指定 */
+    background: #28282c;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+  
+main {
+margin-left:15%;
+flex: 1; /* スクロールする列は残りのスペースを使用 */
+line-height:2;
+}
